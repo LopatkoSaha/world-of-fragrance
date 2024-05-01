@@ -1,0 +1,44 @@
+.favorites {
+    position: relative;
+    cursor: pointer;
+}
+.favoritesIcon {
+    font-size: 2rem;
+}
+.favoritesCount {
+    position: absolute;
+    right: -15%;
+    top: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    padding: 2px 7px;
+}
+.modal {
+    font-size: 3rem;
+    text-align: center;
+    width: 50vw;
+    height: 70vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 10;
+}
+.favoritesCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+}
+.favoritesImg {
+    width: 15%;
+}
+.favoritesName {
+    font-size: 1.5rem;
+}
+.favoritesPrice {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,42 @@
+.search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 15vh;
+    left: 2vw;
+}
+.name {
+    cursor: pointer;
+}
+.searchWord {
+position: absolute;
+top: 25%;
+}
+.serchPrice {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 21vw;
+    top: 49%;
+    left: 0;
+}
+.rangeMin {
+    position: absolute;
+    top: 60%;
+    left: 6vw;
+    z-index: 3;
+}
+.rangeMax {
+    position: absolute;
+    top: 0%;
+    left: 6vw;
+    z-index: 2;
+}
+.searchTitle {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.productCardWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+.productCard {
+    width: 40%;
+}
+.coments {
+    width: 40%;
+}

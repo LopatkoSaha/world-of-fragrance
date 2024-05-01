@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+.header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.container 
+input
+    {
+        width: 100%;
+    }
+.btnSignIn {
+    min-width: 10vw;
+    cursor: pointer;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.btnSigReg {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnSigReg button {
+    cursor: pointer;
+}
+.userName {
+    min-width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

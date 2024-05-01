@@ -1,0 +1,66 @@
+.busketIcon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+.img {
+    font-size: 3rem;
+}
+.busketCount {
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    padding: 2px 7px;
+}
+.modal {
+    font-size: 3rem;
+    text-align: center;
+    width: 50vw;
+    height: 70vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 10;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+} 
+.product img {
+    width: 15%;
+}
+.btnBuy {
+    cursor: pointer;
+    z-index: 20;
+}
+.input {
+    width: 3vw;
+    text-align: center;
+    margin: 0 10px;
+}
+.checkedContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+.dark {
+    background-color: #968f8f;
+}
+.light {
+    background-color: #ffffff;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+min-height: 80px;
+flex-shrink: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.dropdown {
+    margin-right: 5px;
+}
+.home {
+    margin: 0px 10px;
+}
+.admin {
+    margin: 0 10px;
+}
+.gpt {
+    margin: 0 10px;
+}
+.main {
+    flex-grow: 1;
+}
+.footer {
+    min-height: 100px;
+    background-color: #c2b6b6;
+    flex-shrink: 0;
+}
+
+
+

@@ -1,0 +1,23 @@
+.sliderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    height: 20vw;
+}
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    
+}
+img {
+    object-fit: cover;
+}
+.btn {
+    border-radius: 50%;
+    font-size: large;
+}

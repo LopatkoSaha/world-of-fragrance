@@ -1,0 +1,89 @@
+.noRole {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.headerImg {
+    width: 10vw;
+    height: 10vw;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.boxAnswers {
+    width: 100%;
+    min-height: 30vh;
+    border: 2px solid black;
+    box-shadow: 3px 3px 4px rgb(194, 185, 185);
+}
+.textArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+.textAreaBtn {
+    align-self: flex-end;
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 7vw;
+    height: 2vw;
+}
+.btnImg {
+    height: 2vw;
+    border-radius: 10%;
+}
+.wrapperQuestionUser {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+.userName {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 10px;
+}
+.questionUser {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+.wrapperAnswerGpt {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+.imgGpt {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 10px;
+    align-self: start;
+    flex-grow: 0;
+}
+.answerGpt {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    flex-grow: 1;
+}
